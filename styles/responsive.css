@@ -212,10 +212,10 @@
     }
 
     .footer-container .footer-icons button {
+        position: relative;
         height: 3rem;
         width: 14%;
         padding: 0;
-        position: relative;
     }
 
     .footer-container .footer-icons button .footer-icon {
@@ -228,11 +228,11 @@
     }
 
     .footer-privacy p,
-    .footer-last {
+    .footer-copyright {
         font-size: .5rem;
     }
 
-    .footer-last {
+    .footer-copyright {
         width: 40%;
         flex-direction: column;
         text-align: center;

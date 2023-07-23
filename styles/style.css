@@ -420,13 +420,13 @@ footer {
 }
 
 .footer-privacy p,
-.footer-last {
+.footer-copyright {
     font-weight: 500;
     font-size: .7rem;
     color: rgba(255, 255, 255, 0.60);
 }
 
-.footer-last {
+.footer-copyright {
     gap: .4rem;
     display: flex;
 }
