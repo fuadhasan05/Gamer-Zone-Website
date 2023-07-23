@@ -89,3 +89,69 @@ nav {
     padding: .8rem;
 }
 
+/* banner related style */
+.banner {
+    width: 100%;
+    height: 61vh;
+}
+
+.banner-container {
+    max-width: 1048px;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.banner-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.banner-text > h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.banner-text > h2 {
+    font-size: 4rem;
+}
+
+.banner-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.banner-btn .sign-in-btn,
+.banner-btn .go-rogue-btn {
+    color: #FFF;
+    font-size: .8rem;
+    font-weight: 600;
+    padding: .7rem 1.3rem;
+    border-radius: 1.5rem;
+}
+
+.banner-btn .go-rogue-btn {
+    background-color: #4EC5F7;
+}
+
+.banner-img {
+    width: 40%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-img img {
+    width: 100%;
+    
+}
+
