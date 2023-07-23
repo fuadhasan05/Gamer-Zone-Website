@@ -324,3 +324,44 @@ nav {
     margin-top: -40%;
     margin-left: -23%;
 }
+
+/* game type section */
+.game-type-section {
+    max-width: 1048px;
+    margin: 2rem auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 1rem;
+}
+
+.game-type-section .card-t {
+    width: max-content;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    padding: .3rem .5rem;
+    transition: all .2s ease-in-out;
+    transition: color .01s ease-in-out;
+    border-radius: 3rem;
+    border: .1px solid white;
+}
+
+.game-type-section .card-t:hover {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.game-type-section .card-t img {
+    width: 22%;
+}
+
+/* .game-type-section  .card1 img {
+    width: 25%;
+} */
+
+.game-type-section .card-t h3 {
+    font-size: .9rem;
+    width: max-content;
+}
