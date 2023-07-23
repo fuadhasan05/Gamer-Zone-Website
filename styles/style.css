@@ -17,10 +17,6 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-img {
-    width: 100%;
-}
-
 button {
     border: none;
     background-color: transparent;
@@ -34,9 +30,12 @@ button {
     background-color: var(--primary-color);
 }
 
-
 p {
     color: var(--text-color);
+}
+
+img {
+    width: 100%;
 }
 
 .gradient-text {
@@ -63,16 +62,16 @@ nav {
     margin: 0 auto 2rem;
 }
 
+.nav-icon > h2,
+.nav-icon > .fa-gamepad {
+    font-size: 2.5rem;
+}
+
 .nav-icon {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 20%;
-}
-
-.nav-icon > h2,
-.nav-icon > .fa-gamepad {
-    font-size: 2.5rem;
 }
 
 .nav-items,
@@ -214,3 +213,72 @@ nav {
     font-weight: 700;
 }
 
+/* game video section */
+.game-video-section {
+    max-width: 1048px;
+    width: 80%;
+    margin: 8rem auto;
+}
+
+.game-video-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.game-video-content > p {
+    font-size: 1vw;
+}
+
+.game-video-content > h1 {
+    font-size: 3vw;
+}
+
+.game-videos {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 1rem;
+}
+
+.game-videos .game-card > p{
+    font-size: 1.1vw;
+}
+
+.game-videos .game-card {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;   
+}
+
+.game-videos .game-card:hover .card-image {
+    filter: brightness(40%);
+}
+
+.game-videos .game-card .card-image {
+    position: relative;
+    transition: all .2s ease-in-out;  
+}
+
+.play-btn img {
+    width: 30%;
+}
+
+.play-btn {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+    display: none;
+}
+
+.game-videos .game-card:hover .play-btn {
+    display: block;
+}
